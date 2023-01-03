@@ -17,13 +17,12 @@ function Contacts() {
       phone_number: "678",
     },
   ]);
-  console.log({ contacts });
 
   return (
-    <div>
+    <>
       <List contacts={contacts} />
       <Form setContacts={setContacts} contacts={contacts} />
-    </div>
+    </>
   );
 }
 

@@ -8,7 +8,7 @@ import { Container } from "@chakra-ui/react";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Container size={"xl"}>
+    <Container size={"xl"} mt={100}>
       <App />
     </Container>
   </React.StrictMode>

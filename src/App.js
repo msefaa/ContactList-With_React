@@ -4,9 +4,9 @@ import { ChakraProvider, Container } from "@chakra-ui/react";
 
 function App() {
   return (
-    <ChakraProvider className="App" mt={3}>
+    <ChakraProvider>
       <Container
-        mt={5}
+        mt={15}
         maxW="md"
         border={"1px solid grey"}
         shadow="md"
